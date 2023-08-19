@@ -1,0 +1,50 @@
+@import 'colors';
+
+.hero{
+    display: flex;
+    width: 100%;
+    background-color: #394264 !important;
+
+    .left-hero{
+        width: 50%;
+        padding: 10% 5% 10% 15%;
+
+        h1{
+            color: white;
+            font-weight: 800;
+
+            span{
+                color: $secondary-color !important;
+            }
+        }
+
+        p{
+            padding-top: 20px;
+            color: white;
+            font-size: 13px;
+            font-weight: 250;
+        }
+
+        div{
+            margin-top: 10%;
+            padding: 0 6%;
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                width: 10vw !important;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    .right-hero{
+        width: 50%;
+        padding-top: 5%;
+        padding-left: 5%;
+
+        img{
+            height: 70%;
+        }
+    }
+}
